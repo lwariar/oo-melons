@@ -1,4 +1,5 @@
 """A hierarchy of classes for salespeople."""
+# commit this file
 
 class Salesperson():
     """A salesperson at Ubermelon."""
@@ -19,7 +20,6 @@ class Salesperson():
         monthly_salary = self.base_salary / 12
 
         return monthly_salary + commission
-
 
 class InternSalesperson(Salesperson):
     """A college intern at Ubermelon working in sales."""
